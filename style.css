@@ -49,3 +49,24 @@ img {
     height: 100vh;
     width: 30vw;
 }
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.up-side {
+    min-height: 30%;
+}
+
+.center {
+    min-height: 40%;
+    background-color: rgb(235, 235, 235);
+}
+
+.description {
+    font-size: 2em;
+    margin: 2em;
+}
+
