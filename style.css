@@ -67,10 +67,49 @@ img {
 .center {
     min-height: 40%;
     background-color: rgb(235, 235, 235);
+    box-shadow: 0 10px 10px rgb(143 139 139 / 0.4);
 }
 
 .description {
-    font-size: 2em;
-    margin: 2em;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+h2 {
+    margin: 1.5rem 3rem;
+}
+
+form>p {
+    margin: 1rem 0 0 3rem;
+}
+
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
+
+input {
+    max-width: 50%;
+    height: 2rem;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 25px;
+    margin: 3rem;
+    color: white;
+    background-color: rgb(90, 129, 90);
+    border-radius: 10px;
+    padding: 0.5em 1em;
 }
 
