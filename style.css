@@ -96,7 +96,19 @@ input {
     max-width: 50%;
     height: 2rem;
     border-radius: 8px;
-    border-color: black;
+    border: 2px solid gray;
+}
+
+input:focus {
+    border: 2px solid black;
+}
+
+input[type="password"] {
+    border: 2px solid rgb(106, 37, 170);
+}
+
+input:user-invalid {
+    border: 2px solid red;
 }
 
 .form-grid {
