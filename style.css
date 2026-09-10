@@ -60,22 +60,24 @@ img {
     width: 100%;
 }
 
-.up-side {
+header {
     min-height: 30%;
 }
 
-.center {
+form {
     min-height: 40%;
     background-color: rgb(235, 235, 235);
     box-shadow: 0 10px 10px rgb(143 139 139 / 0.4);
 }
 
-.description {
+header h2,
+header p {
     font-size: 2rem;
     margin: 3rem;
+    font-weight: normal;
 }
 
-h2 {
+form h2 {
     margin: 1.5rem 3rem;
 }
 
