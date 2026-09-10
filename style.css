@@ -17,7 +17,8 @@ a {
     color: white;
 }
 
-h1 {
+h1,
+.header {
     position: absolute;
     left: 0;
     top: 25%;
@@ -30,7 +31,7 @@ h1 {
     background-color: rgb(102 96 96 / 30%);
 }
 
-h1::before {
+.header::before {
     content: "";
     position: absolute;
     width: 50px;
@@ -134,4 +135,17 @@ footer p {
 
 footer a {
     color: rgb(90, 129, 90);
+}
+
+.new-page-background {
+    width: 100vw;
+}
+
+.home-button {
+    position: absolute;
+    top: 40%;
+}
+
+.home-button a {
+    text-decoration: none;
 }
